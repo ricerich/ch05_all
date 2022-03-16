@@ -15,7 +15,8 @@ class MainActivity : AppCompatActivity() {
     //2.(멤버)메소드 - onCreate()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+//        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_main_grid_02_grid_only)
         title = "초간단 계산기"
 
         //1.kotlin객체 만들기
@@ -63,8 +64,6 @@ class MainActivity : AppCompatActivity() {
 //            btnNumArr[i] = findViewById(btnIDArr[i])//이거는 일반 배열형식
             btnNumArr.add(findViewById(btnIDArr[i]))
         }
-
-
 
         for(i in 0..9)
         {
